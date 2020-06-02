@@ -272,7 +272,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param Completion block to be called when clearData is completed
  *
  */
--(void)resetUserWithCompletion:(nullable void (^)())completion;
+-(void)resetUserWithCompletion:(nullable void (^)(void))completion;
 /**
  *  Set User properties
  *
